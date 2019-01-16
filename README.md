@@ -1,0 +1,2 @@
+# LegendsOfTheLeague
+Discord Server Website
