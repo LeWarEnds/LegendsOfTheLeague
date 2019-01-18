@@ -8,23 +8,48 @@
 }
 .front-page-img{
   height: 550px;
-  width: 1519px;
+  width: 100%;
 }
 
 .lotl-img{
   position: absolute;
-  top: 150px;
+  top: 20%;
   height: 300px;
-  left: 600px;
+  left: 40%;
+}
+
+.lotl-container{
+  text-align: center;
 }
 
 .lotl-heading{
   position: absolute;
-  top: 520px;
-  left: 500px;
+  top: 67%;
+  left: 27%;
   font-family: "Montserrat";
   font-weight: 900;
   color: #fff;
+  font-size: 60px;
+}
+
+@media (max-width: 500px){
+  .lotl-heading{
+    margin-right: 15%;
+    margin-bottom: 2%;
+    margin-top: 300px;
+    float: right;
+    left: 10%;
+  }
+  .lotl-img{
+    position: absolute;
+    left:15%;
+    float: right;
+  }
+  .lotl-container{
+    position: relative;
+    top: 100px;
+    margin-right: 100px;
+  }
 }
 
 .discord-heading{
@@ -33,7 +58,7 @@
   font-family: "Montserrat";
   font-weight: 900;
   font-size: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .discord-btn-div{
@@ -43,7 +68,11 @@
 .discord-btn{
   height: 60px;
   border-radius: 5%;
-  margin-bottom: 100px;
+  margin-bottom: 5%;
+}
+
+.join-discord{
+  background-color: #9873b9;
 }
 
 .navbar-brand{
@@ -58,6 +87,7 @@
 .row{
   margin-right: 0px;
   margin-left: 0px;
+  margin-bottom: 5%;
 }
 .features-heading{
   padding-top: 120px;
@@ -65,4 +95,30 @@
   font-family: "Lilita One";
   font-weight: 400;
   font-size: 70px;
+}
+
+.remark-heading{
+  text-align: center;
+  padding-top: 7%;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 70px;
+  padding-bottom: 5%;
+}
+
+.testimonials{
+  padding-top: 0;
+  background-color: #eeeeee;
+}
+
+.surtur-para{
+  font-family: "Montserrat";
+}
+.yasuo-para{
+  font-family: "Montserrat";
+}
+
+h3{
+  font-family: "Lilita One";
+  font-weight: bold;
 }
